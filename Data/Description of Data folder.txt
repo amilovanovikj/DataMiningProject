@@ -1,0 +1,6 @@
+The Data folder consists of 2 subfolders: Post, combined and Pre, raw and the Data info file.
+- The Pre, raw folder consists of two subfolders: polllution and weather, where each contains the sutiable reports for each of the municipalities. These datasets are raw and don't have
+any preprocessing done on them. The pollution datasets are retrieved from pulse.eco API and the weather datasets are retrieved from the Dark Sky API.
+- The Post, combined folder consists of three subfolders: pollution, weather and combined. The pollution and weather folders contain reports which are results of the DataAggregationPipeline
+notebook from the Data preprocessing notebooks and the combined folder contains combined reports(weather+pollution) for each of the municipalities.
+- The Data info file contains information for each of the attributes of both reports alongside some other useful information.
